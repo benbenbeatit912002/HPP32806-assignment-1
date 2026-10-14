@@ -2,17 +2,7 @@
 
 ## Location
 
-Data folder:
-
-```text
-C:\HPP32806\Files\assignment_1\Data
-```
-
-Notebook:
-
-```text
-C:\HPP32806\Files\assignment_1\Load_data.ipynb
-```
+Raw data: [`Data/`](../Data/). Analysis: [`notebooks/stomatal_conductance.ipynb`](../notebooks/stomatal_conductance.ipynb).
 
 ## Overall Structure
 

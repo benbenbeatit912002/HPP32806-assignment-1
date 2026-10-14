@@ -1,10 +1,6 @@
 ﻿# GreenLight Literature Summary
 
-Source PDF:
-
-```text
-C:\Users\chris\OneDrive - Wageningen University & Research\Thesis_Green Light\greenlight_an_open_source_model_for_greenhouses_w-wageningen_university_and_research_520969.pdf
-```
+Reading notes. Bibliographic details and source DOI are listed below.
 
 ## Paper Information
 

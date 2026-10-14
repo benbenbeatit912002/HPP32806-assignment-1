@@ -1,0 +1,6 @@
+# Core environment used for the checked-in reference results (Python 3.11).
+# Install the project afterwards with: python -m pip install -e . --no-deps
+numpy==2.4.6
+pandas==3.0.3
+scipy==1.17.1
+matplotlib==3.10.9

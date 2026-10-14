@@ -1,0 +1,255 @@
+{
+  "python": "3.11.9",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9"
+  },
+  "max_nfev_override": null,
+  "model_specs": {
+    "Model 0": {
+      "names": [
+        "g0",
+        "a",
+        "Kq",
+        "D0"
+      ],
+      "lower": [
+        0,
+        0,
+        1,
+        0.01
+      ],
+      "upper": [
+        0.1,
+        5,
+        3000,
+        10
+      ],
+      "initial": [
+        0.02,
+        1.0,
+        300,
+        1.5
+      ]
+    },
+    "Model 1": {
+      "names": [
+        "Amax",
+        "K",
+        "Rd",
+        "g0",
+        "gL",
+        "Gamma",
+        "D0"
+      ],
+      "lower": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.01
+      ],
+      "upper": [
+        50,
+        3000,
+        10,
+        0.1,
+        50,
+        100,
+        10
+      ],
+      "initial": [
+        30,
+        500,
+        2,
+        0.02,
+        10,
+        40,
+        1.5
+      ]
+    },
+    "Model 2": {
+      "names": [
+        "Amax",
+        "K",
+        "Rd",
+        "g0",
+        "gL",
+        "Gamma",
+        "D0",
+        "k_lag"
+      ],
+      "lower": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.01,
+        0.001
+      ],
+      "upper": [
+        50,
+        3000,
+        10,
+        0.1,
+        50,
+        100,
+        10,
+        1
+      ],
+      "initial": [
+        30,
+        500,
+        2,
+        0.02,
+        10,
+        40,
+        1.5,
+        0.15
+      ]
+    },
+    "Model 3": {
+      "names": [
+        "Amax",
+        "K",
+        "Rd",
+        "g0",
+        "gL",
+        "Gamma",
+        "D0",
+        "k_open",
+        "k_close"
+      ],
+      "lower": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.01,
+        0.001,
+        0.001
+      ],
+      "upper": [
+        35,
+        3000,
+        10,
+        0.1,
+        50,
+        100,
+        10,
+        1,
+        1
+      ],
+      "initial": [
+        25,
+        500,
+        2,
+        0.02,
+        10,
+        40,
+        1.5,
+        0.75,
+        0.5
+      ]
+    }
+  },
+  "optimizer": {
+    "Model 0": {
+      "success": true,
+      "status": 2,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 45,
+      "cost": 114.24855671917743,
+      "optimality": 0.008220414090318191
+    },
+    "Model 1": {
+      "success": true,
+      "status": 2,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 55,
+      "cost": 112.58243478781623,
+      "optimality": 0.007297963828969587
+    },
+    "Model 2": {
+      "success": true,
+      "status": 2,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 59,
+      "cost": 32.99047209820186,
+      "optimality": 0.00426339230720284
+    },
+    "Model 3": {
+      "success": true,
+      "status": 2,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 61,
+      "cost": 32.59859139375038,
+      "optimality": 0.011446550785901921
+    }
+  },
+  "data": [
+    {
+      "file": "Training/2023-08-25-1038_logdata_silvere2_flash",
+      "sha256": "713bb1d1cedb8196bb1ee049dbfd9af13ed0711c44347b5163e546d4103dfc2a",
+      "model_rows": 5631
+    },
+    {
+      "file": "Training/2023-08-30-1101_logdata_silvere2_flash",
+      "sha256": "6c84cda9a05e4898c2428d2a112f78110c5b3f6195adb45e7687bccd1bdf9e27",
+      "model_rows": 5635
+    },
+    {
+      "file": "Training/2023-09-06-1204_logdata_silvere2_flash",
+      "sha256": "70d0944866bb9f8156a72941e9196b92962b1b2c41f2570f9fa7aef99444e492",
+      "model_rows": 5648
+    },
+    {
+      "file": "Training/2023-09-22-1242_logdata_silvere2_flash",
+      "sha256": "daaf27fe6a37c7663aaa1e0260f37dec8331b1746fd1852152c0584ef28cc2c2",
+      "model_rows": 5565
+    },
+    {
+      "file": "Training/2023-10-24-1257_logdata_silvere2_flash",
+      "sha256": "b4a48012b0ee2fcaf80b3ba8088bbd1f95b8bf50972ae784638fea9d208fe292",
+      "model_rows": 5567
+    },
+    {
+      "file": "Training/2023-10-24-1300_logdata2_silvere2_flash",
+      "sha256": "065f2faad7c0b9ad186981cd7a15b77e50b3f6a0db377920bc09baff1d216524",
+      "model_rows": 5517
+    },
+    {
+      "file": "Validation/2023-08-28-1128_logdata_silvere3_flash",
+      "sha256": "182134a0ec9385aa74a4dac61a285ea4860a20ff977a35401bade74ef4feaf14",
+      "model_rows": 5650
+    },
+    {
+      "file": "Validation/2023-09-04-1143_logdata_silvere3_flash",
+      "sha256": "7d1c778863b750f87ebeda46c052520f0f960b658f2f8121a3c06104db802b9c",
+      "model_rows": 5633
+    },
+    {
+      "file": "Validation/2023-10-03-1126_logdata_silvere3_flash",
+      "sha256": "ae564e3a245bebc1ada04ec8ded27efc650e90123a6d52f8908b675823a1b1b4",
+      "model_rows": 5568
+    },
+    {
+      "file": "Validation/2023-10-18-1319_logdata_silvere3_flash",
+      "sha256": "12bde8bc603b81a92dc6ee599164c9e5f05c7597fbd38291c7d1b22e0406967e",
+      "model_rows": 5580
+    },
+    {
+      "file": "Validation/2023-10-18-1323_logdata2_silvere3_flash",
+      "sha256": "521f9cdbf93cbdad1f0b062093cfd59dbe671d55cd7ee0e651861a8a01e1086e",
+      "model_rows": 5214
+    }
+  ]
+}

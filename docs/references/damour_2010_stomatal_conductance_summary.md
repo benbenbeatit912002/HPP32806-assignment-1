@@ -1,10 +1,6 @@
 ﻿# Damour et al. (2010) Stomatal Conductance Review Summary
 
-Source PDF:
-
-```text
-C:\Users\chris\OneDrive - Wageningen University & Research\datadriven\Plant Cell Environment - 2010 - DAMOUR - An overview of models of stomatal conductance at the leaf level.pdf
-```
+Reading notes. Bibliographic details and source DOI are listed below.
 
 ## Paper Information
 
