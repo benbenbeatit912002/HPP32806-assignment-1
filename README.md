@@ -1,8 +1,10 @@
-# Stomatal Conductance Under Fluctuating Light
+# Stomatal Conductance Modeling
+
+[![Tests](https://github.com/benbenbeatit912002/stomatal-conductance-modeling/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/benbenbeatit912002/stomatal-conductance-modeling/actions/workflows/tests.yml)
 
 Predicting how stomata respond to changing light using LI-6800 gas exchange measurements, mechanistic models, and independent validation files.
 
-This project grew out of HPP32806 coursework at Wageningen University & Research. It compares four models, progressing from a static light response to separate stomatal opening and closing dynamics. The analysis connects plant physiology with a reproducible Python workflow: instrument parsing, quality control, parameter estimation, evaluation, and visualisation.
+This project compares four models, progressing from a static light response to separate stomatal opening and closing dynamics. The analysis connects plant physiology with a reproducible Python workflow: instrument parsing, quality control, parameter estimation, evaluation, and visualisation.
 
 ![Validation comparison of four stomatal conductance models](reports/reference/model_comparison.png)
 
@@ -38,8 +40,8 @@ The notebook also contains exploratory Ridge and LSTM residual corrections, sens
 Use **Python 3.11** for the reference environment. From a terminal:
 
 ```bash
-git clone https://github.com/benbenbeatit912002/HPP32806-assignment-1.git
-cd HPP32806-assignment-1
+git clone https://github.com/benbenbeatit912002/stomatal-conductance-modeling.git
+cd stomatal-conductance-modeling
 python -m venv .venv
 ```
 
@@ -129,7 +131,7 @@ Models use light, CO₂, and leaf VPD. Assimilation is simulated from light; mea
 
 The experiment has a small number of independent files, several parameters reach their fitting bounds, and the validation set is used to compare candidate models. These results are exploratory and would need a further independent test set for a final generalisation estimate. The residual models and covariance-based uncertainty analysis have additional assumptions documented in [methods and limitations](docs/methodology.md).
 
-See the [dataset summary](docs/data_summary.md) and [data provenance](Data/README.md). No project licence or separate raw-data redistribution licence has been selected in this repository.
+The project originated in plant physiology coursework at Wageningen University & Research. See the [dataset summary](docs/data_summary.md) and [data provenance](Data/README.md). No project licence or separate raw-data redistribution licence has been selected in this repository.
 
 ## Verification
 
